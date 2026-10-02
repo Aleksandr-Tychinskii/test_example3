@@ -17,3 +17,10 @@ venv/
 # tools/fetch.py brings them down with the documents. Only the small .png
 # renders are committed.
 *.stl
+
+# sling lift grader: local working files
+FreeCAD/4_sling_lift/inspect_out/
+FreeCAD/4_sling_lift/measure_out/
+FreeCAD/4_sling_lift/controls/
+FreeCAD/4_sling_lift/*.score.json
+FreeCAD/4_sling_lift/tests/task/harness/.reference_cache/
